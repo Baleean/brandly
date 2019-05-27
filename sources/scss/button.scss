@@ -1,0 +1,28 @@
+.button {
+  width: 200px;
+  height: 60px;
+  border-radius: 2.6px;
+  border: solid 2px #ffffff;
+  background: none;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.button:hover {
+  background: #8F8F8F;
+  cursor: pointer;
+}
+
+.button_position {
+  margin: 0 auto;
+}
+

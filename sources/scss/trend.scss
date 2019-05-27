@@ -1,0 +1,53 @@
+.trend {
+  background: url("../img/bg-suit.png");
+  width: 1920px;
+  height: 918px;
+}
+
+.trend_position {
+  margin-top: 60px;
+  padding-top: 91px;
+}
+
+
+.trend__header {
+  height: 75px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.48;
+  letter-spacing: normal;
+  color: #333333;
+  text-transform: capitalize;
+  position: relative;
+
+}
+
+.trend__header:before {
+  content: "";
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  position: absolute;
+  top: -36px;
+  margin-left: 80px;
+}
+
+.trend__header:after {
+  content: "";
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  position: absolute;
+  top: 58px;
+  margin-left: -202px;
+}
+
+.trend__item {
+  width: 1170px;
+  margin: 84px auto 0 auto;
+}
+

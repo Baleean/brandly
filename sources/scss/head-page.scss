@@ -1,0 +1,23 @@
+@import '_dev/_dev.scss';
+
+.head-page {
+  width: 1170px;
+  height: 40px;
+}
+
+.head-page_position-center {
+  margin: 28px auto 0 auto;
+}
+
+.head-page__logo {
+  float: left;
+  margin-top: -5px;
+}
+
+.head-page__nav {
+  float: right;
+}
+
+.head-page__link {
+  text-decoration: none;
+}

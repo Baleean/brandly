@@ -1,0 +1,55 @@
+.categories {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories__item {
+  width: 370px;
+  height: 418px;
+  display: inline-block;
+}
+
+.categories__item_men {
+  background: url("../img/men.png"), #222533c4;
+  background-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+.categories__item_woman {
+  background: url("../img/woman.png"), #222533c4;
+  background-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+.categories__item_watches {
+  background: url("../img/watches.png"), #222533c4;
+  background-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+.categories-item {
+  width: 315px;
+  height: 355px;
+  border: 3px solid #ffffff;
+  text-align: center;
+
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.categories-item_position {
+  margin: 31px auto 0 auto;
+
+}
+
+.categories-item__text {
+  line-height: 355px;
+  margin: 0 auto;
+}

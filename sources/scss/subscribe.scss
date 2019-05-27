@@ -1,0 +1,61 @@
+.subscribe {
+  background: url("../img/subscription.png"), #222533c4;
+  background-blend-mode: overlay;
+  height: 250px;
+}
+
+.subscribe__form {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 76px;
+}
+
+.subscribe__form-input-label {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.subscribe__form-input {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-left: 30px;
+  color: #ffffff;
+  width: 772px;
+  height: 51px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  margin-top: 31px;
+  box-sizing: border-box;
+}
+
+.subscribe__form-submit {
+  width: 270px;
+  height: 51px;
+  background-color: #ffffff;
+  border: none;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  vertical-align: bottom;
+  margin-left: 120px;
+  text-transform: uppercase;
+}

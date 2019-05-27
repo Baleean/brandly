@@ -1,0 +1,44 @@
+
+.dots {
+  height: 15px;
+  width: 120px;
+}
+
+.dots_position_promo {
+  margin: 240px auto 60px auto;
+}
+
+.dots_position_trend {
+  margin: 60px auto 60px auto;
+}
+
+.dots__item {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.dots__item_promo {
+  border: solid 2px #ffffff;
+  background-color: #ffffff;
+}
+
+.dots__item_trend {
+  border: solid 2px #333333;
+  opacity: 0.54;
+  background-color: #333333;
+}
+
+.dots__item:hover {
+  cursor: pointer;
+}
+
+.dots__item_promo_active {
+  background: none;
+}
+
+.dots__item_trend_active {
+  background: none;
+}

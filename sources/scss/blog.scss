@@ -1,0 +1,72 @@
+@import "_dev/dev.scss";
+
+.blog {
+  width: 1920px;
+  height: 1044px;
+}
+
+.blog_position {
+  padding-top: 91px;
+}
+
+.blog__header {
+  margin-top: 0;
+  height: 75px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.48;
+  letter-spacing: normal;
+  color: #333333;
+  text-transform: capitalize;
+  position: relative;
+
+}
+
+.blog__header:before {
+  content: "";
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  position: absolute;
+  top: -36px;
+  margin-left: 75px;
+}
+
+.blog__header:after {
+  content: "";
+  width: 113px;
+  height: 3px;
+  background-color: #dc0000;
+  position: absolute;
+  top: 58px;
+  margin-left: -196px;
+}
+
+.blog__slider {
+  margin: 0 246px;
+  display: grid;
+  grid-template-columns: 1fr 570px 570px 1fr;
+  grid-column-gap: 30px;
+}
+
+.blog__button {
+  height: 760px;
+}
+
+.blog__button-left {
+  margin-top: 275px;
+}
+
+.blog__button-right {
+  margin-top: 275px;
+  float: right;
+}
+
+.blog__article {
+  height: 100%;
+}
+

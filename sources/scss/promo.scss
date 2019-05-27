@@ -1,0 +1,59 @@
+@mixin position() {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+}
+
+.promo {
+  background: url("../img/img.png"), #2225336e;
+  background-blend-mode: overlay;
+  height: 932px;
+}
+
+.promo_position {
+
+}
+
+.promo__content {
+  padding-top: 285px;
+  margin: -69px auto 0 auto;
+  width: 1200px;
+}
+
+.promo__collection {
+  @include position;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.63;
+  letter-spacing: 9px;
+}
+
+.promo__discount {
+  @include position;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.32;
+  letter-spacing: normal;
+  margin-top: 70px;
+}
+
+.promo__description {
+  @include position;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+
+

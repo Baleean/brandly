@@ -1,0 +1,23 @@
+@mixin style-logo() {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: rgba(220, 0, 0, 0.8);
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.logo {
+  font-family: Bebas Neue;
+}
+
+.logo__brand {
+  @include style-logo;
+  font-size: 48px;
+}
+
+.logo__ly {
+  @include style-logo;
+  font-size: 36px;
+}

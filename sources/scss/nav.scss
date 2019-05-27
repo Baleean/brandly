@@ -1,0 +1,27 @@
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 679px;
+}
+
+.nav_position {
+  margin-left: 0;
+  padding: 0;
+}
+
+.nav__item {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.06;
+  letter-spacing: normal;
+
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #ffffff;
+}

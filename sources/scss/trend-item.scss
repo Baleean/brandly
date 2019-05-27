@@ -1,0 +1,66 @@
+.trend-item {
+  height: 570px;
+}
+
+.trend-item__image {
+
+}
+
+.trend-item__figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.trend-item__description {
+
+}
+
+.trend-item__header {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dc0000;
+  text-transform: uppercase;
+}
+
+.trend-item__collection {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #777777;
+  text-transform: capitalize;
+}
+
+.trend-item__separator {
+  width: 30px;
+  height: 1px;
+  background-color: #000000;
+}
+
+.trend-item__short-desc {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.39;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #777777;
+}
+
+.trend-item__buttons {
+  width: 370px;
+  margin-top: 60px;
+}
